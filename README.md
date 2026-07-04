@@ -19,7 +19,7 @@ Fedora spreads updates across half a dozen tools: `dnf` for packages, `flatpak` 
 ## Install
 
 ```bash
-git clone git@github.com:TonyAldo/Fedup.git
+git clone git@github.com:TonyAldo/fedup.git
 cd Fedup
 chmod +x fedup.sh
 ./fedup.sh
