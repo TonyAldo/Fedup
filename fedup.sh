@@ -2,7 +2,7 @@
 #
 #      ▐▛███▜▌      f e d u p  v2
 #     ▟██████▙      ────────────────────────────────────────
-#    ▐████████▌     The everything-updater for Fedora 44 KDE
+#    ▐████████▌     The everything-updater for Fedora
 #     ▜██████▛      dnf · flatpak · snap · firmware · containers
 #      ▘▘ ▝▝        snapshots · versionlock · security · timers
 #
@@ -11,7 +11,7 @@
 #    fedup --all               update everything, no menu
 #    fedup --security          apply security updates only
 #    fedup --check             count pending updates (exit 0 = none, 10 = some)
-#    fedup --check --notify    same, plus KDE desktop notification
+#    fedup --check --notify    same, plus desktop notification
 #    fedup --check --json      machine-readable counts
 #    fedup --dry-run <mode>    preview any of the above without changing anything
 #    fedup --remote h1 h2 ...  run --all on remote hosts over SSH
@@ -101,7 +101,7 @@ banner() {
       ▐▛███▜▌
      ▟██████▙     f e d u p  v2
     ▐████████▌    ─────────────────────────────
-     ▜██████▛     Fedora Update Utility · KDE Edition
+     ▜██████▛     Fedora Update Utility
       ▘▘ ▝▝
 EOF
     printf "${RESET}"
